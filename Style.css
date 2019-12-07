@@ -1,0 +1,15 @@
+.header{
+	display: block;
+	display: inline;
+	padding: 0px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	box-shadow: 0px 0.005px 5px rgb(180, 180, 180, 180);
+	background-color: white	;
+}
+
+body {
+	background-color: #FAFAFA;
+}
