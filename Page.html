@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,24 +12,117 @@
 <table>
 	<tr>
 		<th rowspan="2"><h1>Facebook</h1></th>
-		<td rowspan="2"> Adresse e-mail ou mobile</td>
+		<td> Adresse e-mail ou mobile</td>
 		<td>Mot de passe</td>
 	</tr>
 	<tr>
 	<td>
 		<form action="/search">
 			<input type="text" placeholder="Adress e-mail ou numero de téléphone">
-			<input type="text" placeholder="Mot de passe">
-			<button type="submit"> connexion</button>
 	    </form>
     </td>
+    <td>
+    	<form>
+    	   <input type="text" placeholder="Mot de passe">
+		   <button type="submit"> connexion</button>
+    	</form>
+
+    </td>
+
 	</tr>
 </table>
 </header>
 <table>
 	<tr>
 		<td><h1>Connexions Récentes</h1></td>
-		<td><h1>Créer un compte</h1></td>
+		<td>
+			<h1>Créer un compte</h1>
+		</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td>
+			<p>c'est rapide et facile</p>
+			<table>
+				<tr>
+					<td>
+					<form>
+						<input type="text" placeholder="Prénom">
+					</form> 
+					</td>
+					<td>
+						<form>
+							<input type="text" placeholder="Nom de famille">
+						</form>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<form>
+							<input type="text" placeholder="Numéro de mobile ou e-mail">
+						</form>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<form>
+							<input type="text" placeholder="Mot de passe">
+						</form>
+					</td>
+				</tr>
+				<tr> <td><p>Date de naissance</p></td></tr>
+				<tr>
+					<td>
+					<select name="Birthday" id="jour">
+						<option value="0">jour</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+					</select>
+					</td>
+					<td>
+						
+					<select name="Birthday month" id="mois">
+						<option value="0">mois</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+					</select>
+					</td>
+					<td>
+						
+					<select name="Birthday year" id="année">
+						<option value="0">année</option>
+						<option value="1">2000</option>
+						<option value="2">2001</option>
+						<option value="3">2002</option>
+						<option value="4">2003</option>
+					</select>
+					</td>
+
+				</tr>
+				<tr>Genre</tr>
+				<tr>
+				</br>
+					<form>
+						<label for="Genre">
+							<input type="radio" name="Sexe"> Homme
+						</label>
+					    <label for="Genre">
+							<input type="radio" name="Sexe"> Femme
+						</label>
+						<label for="Genre">
+							<input type="radio" name="Sexe"> Pédé
+						</label>
+						<label for="Genre">
+							<input type="radio" name="Sexe"> Lesbienne
+						</label>
+					</form>
+				</tr>
+			</table>
+		</td>
 	</tr>
 	<tr>
 		<td>Cliquez sur votre image ou sur Ajouter un compte.</td>
